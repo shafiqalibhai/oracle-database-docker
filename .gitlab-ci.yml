@@ -19,7 +19,7 @@
 build:
   stage: build
   script:
-     - cp /nfs/box2/linuxx64_12201_database.zip .
+     - cp /nfs/linuxx64_12201_database.zip .
      - sh dockerBuildImage.sh -v 12.2.0.1 -e -i
 #    - docker build --pull -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG" .
 #    - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG"
