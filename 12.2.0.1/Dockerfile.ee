@@ -24,7 +24,7 @@ FROM oraclelinux:7-slim
 
 # Maintainer
 # ----------
-MAINTAINER Gerald Venzl <gerald.venzl@oracle.com>
+MAINTAINER Shafiq Alibhai <hello@deployview.com>
 
 # Environment variables required for this build (do NOT change)
 # -------------------------------------------------------------
